@@ -12,8 +12,8 @@ export default function Bio() {
         <>
           <div className="container bio">
             <p className="intro">
-                <span className="ciao">Ciao,</span>
-                <span className="mio-nome">{` sono Alberto`}</span>
+                <span className="ciao">Hi,</span>
+                <span className="mio-nome">{` I'm Alberto`}</span>
             </p>
             <div className="display-bio">
               {display.map((item, index) => (
