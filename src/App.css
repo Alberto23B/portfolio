@@ -1,38 +1,72 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=SUSE&display=swap");
+
+
+*>* {
+ font-family: "SUSE", sans-serif;
+}
+
+.header {
+  color: #020024;
+  top: 0;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.bar {
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  background: rgba(9,9,121,1);
+  border-radius: 1rem;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+  outline: 0 solid transparent;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  width: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttons {
+  text-align: center;
+  margin: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.display-bio {
+  text-wrap: pretty;
+  border: solid 0.1rem rgba(9,9,121,1);
+  border-radius: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  max-width: 80%;
+  box-shadow: 0.5rem 0rem 1rem #464646
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  max-width: 10%;
+  margin: 0 2rem;
+  box-shadow: 0.5rem 0rem 1rem #464646;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cert {
+  max-width: 40%;
+}
+
+.project {
+  max-width: 60%;
 }

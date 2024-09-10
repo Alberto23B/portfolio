@@ -1,6 +1,6 @@
 import './App.css';
 import Bio from './components/Bio';
-import Certificates from './components/Certificates';
+import Certificates from './components/Certifications';
 import ProjectPicker from "./components/ProjectPicker"
 
 function App() {
@@ -12,8 +12,10 @@ function App() {
         </h1>
       </header>
       <Bio />
-      <ProjectPicker />
-      <Certificates />
+      <div className='container'>
+        <ProjectPicker />
+        <Certificates />
+      </div>
     </div>
   );
 }
