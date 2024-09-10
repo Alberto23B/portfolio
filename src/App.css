@@ -5,17 +5,25 @@
  font-family: "SUSE", sans-serif;
 }
 
+body {
+  background-image: url("./assets/aaabstract.jpeg");
+}
+
 .header {
-  color: #020024;
   top: 0;
   text-align: center;
-  max-width: 50%;
+  max-width: 100%;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .container {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.bio {
+  justify-content: space-between;
 }
 
 .bar {
@@ -24,20 +32,17 @@
 }
 
 .button {
-  background: rgba(9,9,121,1);
-  border-radius: 1rem;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
-  box-sizing: border-box;
+  background: #14141f;
+  border-radius: 0.2rem;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
   font-size: 1rem;
   font-weight: bold;
   line-height: 1rem;
   outline: 0 solid transparent;
   padding: 0.5rem 1rem;
   margin: 0 1rem;
-  width: 10%;
+  width: 20%;
 }
 
 .buttons {
@@ -47,19 +52,77 @@
 
 .display-bio {
   text-wrap: pretty;
-  width: 90%;
   margin: 0 auto;
   display: inline-block;
   position: relative;
-  max-width: 80%;
-  box-shadow: 0.5rem 0rem 1rem #464646
+  max-width: 40%;
 }
 
 .logo {
-  max-width: 10%;
+  max-width: 5%;
   margin: 0 2rem;
-  box-shadow: 0.5rem 0rem 1rem #464646;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+.intro {
+  align-self: center;
+  text-align: center;
+  min-width: 50%;
+  font-size: 3rem;
+}
+
+.mio-nome {
+  display: inline-block;
+  visibility: hidden;
+  animation: 0.6s ease-in 1s 1 slideInFromTop forwards;
+  margin-left: 1rem;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.ciao {
+  display: inline-block;
+  font-weight: bold;
+  visibility: hidden;
+  animation: 0.4s ease-in 0s 1 slideInFromLeft forwards
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+.contacts {
+  list-style-type: none;
+}
+
+.contacts li {
+  display: inline-block;
+  margin: 0 2rem;;
+}
+
 
 .cert {
   max-width: 40%;
@@ -67,4 +130,66 @@
 
 .project {
   max-width: 60%;
+}
+
+.description {
+  margin-left: 2rem;
+}
+
+.spaced-li {
+  line-height: 2rem;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #14141f;
+}
+
+a:hover {
+  animation: 0.4s linear 0s 1 grow forwards;
+}
+
+@keyframes grow {
+  0% {
+    color: #14141f;
+  }
+  100% {
+    color: #218386;
+  }
+}
+
+svg {
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width : 800px) {
+  .container {
+    flex-flow: column nowrap;
+  }
+
+  .display-bio {
+    max-width: 90%;
+  }
+
+  .button {
+    width: 40%;
+    margin: 0 5%;
+  }
+
+  .buttons {
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .project {
+    max-width: 100%;
+  }
+
+  .cert {
+    max-width: 100%;
+  }
 }

@@ -9,7 +9,7 @@ export default function Certificates() {
           </div>
           <ul>
             {certificates.map(cert => {
-                return <li key={cert.name}><a href={cert.url}>{cert.name}</a></li>
+                return <li className="spaced-li" key={cert.name}><a href={cert.url} target="#">{cert.name}</a></li>
             })}
           </ul>
         </div>
