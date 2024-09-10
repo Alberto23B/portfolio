@@ -47,8 +47,6 @@
 
 .display-bio {
   text-wrap: pretty;
-  border: solid 0.1rem rgba(9,9,121,1);
-  border-radius: 1rem;
   width: 90%;
   margin: 0 auto;
   display: inline-block;
