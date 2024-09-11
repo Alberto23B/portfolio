@@ -24,6 +24,7 @@ function App() {
           </h4>
       </header>
       <section id='section1'></section>
+      <img className="logo-responsive" src={logo} alt="a portrait" />
       <Bio />
       <div id="section2" className='container project'>
         <ProjectPicker />

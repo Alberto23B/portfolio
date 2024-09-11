@@ -7,7 +7,7 @@
 
 body {
   background-image: url("./assets/aaabstract.jpeg");
-  height: 100%;
+  
 }
 
 html {
@@ -50,11 +50,13 @@ html {
 .container {
   display: flex;
   flex-flow: row nowrap;
+  width: 100vw;
 }
 
 .bio {
-  justify-content: space-between;
   height: 95vh;
+  position: relative;
+  top: 2rem;
 }
 
 .bar {
@@ -96,8 +98,16 @@ html {
   max-width: 5%;
   margin: 0 2rem;
   border-radius: 50%;
-  object-fit: cover;
-  
+  object-fit: cover; 
+}
+
+.logo-responsive {
+  display: none;
+  border-radius: 50%;
+  width: 20%;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
 }
 
 .intro {
@@ -178,8 +188,6 @@ html {
 
 .image {
   width: 3%;
-  animation: 1s ease-in 1.5s 1 slideInFromBelow forwards;
-  visibility: hidden;
 }
 
 .cert {
@@ -219,6 +227,7 @@ html {
 
 .contacts {
   list-style-type: none;
+  padding: 0;
 }
 
 .contacts li {
@@ -267,12 +276,9 @@ svg {
 }
 
 @media screen and (max-width : 800px) {
-  .intro {
-    margin-top: 15%;
-  }
 
   .bio {
-    height: 50vh
+    height: 50%
   }
 
   .bar {
@@ -296,6 +302,10 @@ svg {
     display: none;
   }
 
+  .logo-responsive {
+    display: block;
+  }
+
   .project {
     max-width: 100%;
     display: flex;
@@ -311,5 +321,25 @@ svg {
 @media screen and (max-width: 600px) {
   .logos {
     display: none;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+  .logos {
+    display: none;
+  }
+  
+  .bio {
+    height: 70vh;
+  }
+
+  .project {
+    flex-direction: row;
+    padding-top: 5vh;
+    height: 100vh;
+  }
+
+  .bar {
+    margin: 0;
   }
 }
