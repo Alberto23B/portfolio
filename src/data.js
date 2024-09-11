@@ -118,8 +118,8 @@ export const certificates = [
 
 export const bio = [
     {
-      description: `Sono un appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi.
-      Il mio obiettivo è raggiungere le competenze di un Full-Stack Developer 
+      description: `
+      Il mio obiettivo è raggiungere le competenze di Full-Stack Developer 
       tramite l'applicazione pratica di conoscenze derivate da corsi e studio individuale.
 
       Linguaggi conosciuti: 
@@ -128,22 +128,20 @@ export const bio = [
       Frameworks:
       -React.js
 
-      Ho cominciato questo percorso durante e dopo aver svolto per 5 anni la professione di Chinesiologo e Preparatore atletico, ambito che, 
-      supportato da un ciclo completo di studi universitari in Scienze motorie (Triennale 2019, Magistrale 2024), 
+      Ho cominciato questo percorso durante e dopo aver svolto per 5 anni la professione di Chinesiologo e Preparatore atletico, ambito che 
       mi ha permesso di consolidare e rafforzare skills interpersonali, organizzative, gestionali e comunicative.`,
       lang: "ita"
     },
     {
-      description: `I am a passionate learner in the field of web and application development.
-      My goal is to acquire the skills of a Full-Stack Developer through the practical application of knowledge 
+      description: `
+      My goal is to acquire the skills of Full-Stack Developer through the practical application of knowledge 
       gained from courses and individual study.
 
       Languages known:
       HTML, CSS, JavaScript, JSX, CLI.
       Frameworks:
       React.js.
-      I began this journey during and after working for five years as a Kinesiologist and Athletic Trainer, a field in which, 
-      supported by a complete cycle of university studies in Sports Science (Bachelor's degree in 2019, Master's degree in 2024), 
+      I began this journey during and after working for five years as a Kinesiologist and Athletic Trainer, a field in which
       I have been able to consolidate and strengthen my interpersonal, organizational, management, and communication skills.
 
     `,
