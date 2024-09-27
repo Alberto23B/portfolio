@@ -3,7 +3,7 @@ export const projects = [
         name: "The Good Reads",
         url: "https://the-good-reads.vercel.app/",
         description: 
-        `Project made from scratch using
+        `Books search engine made from scratch using
         React, FetchAPI, Google Books API, TailwindCSS`,
         deployed: true 
     },

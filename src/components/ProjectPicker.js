@@ -12,7 +12,7 @@ export default function ProjectPicker() {
                  return (
                     <div className="flex-none w-72 h-80 m-5 py-12 card">
                       <a className="block h-20" href={proj.url} target="#">{proj.name}</a>
-                      <ul className="h-32">
+                      <ul className="h-32 text-balance">
                         <li>{proj.description}</li>
                       </ul>
                       {proj.deployed && 
