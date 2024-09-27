@@ -11,8 +11,8 @@ export default function ProjectPicker() {
               {projects.map((proj) => {
                  return (
                     <div className="flex-none w-72 h-80 m-5 py-12 card">
-                      <a className="block h-24" href={proj.url} target="#">{proj.name}</a>
-                      <ul>
+                      <a className="block h-20" href={proj.url} target="#">{proj.name}</a>
+                      <ul className="h-32">
                         <li>{proj.description}</li>
                       </ul>
                       {proj.deployed && 

@@ -9,7 +9,7 @@ export default function Certificates() {
           </div>
           <ul className="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-8 new-scrollbar">
             {certificates.map(cert => {
-                return <li className="flex-none w-72 h-80 m-5 py-12 card" key={cert.name}><a href={cert.url} target="#">{cert.name}</a></li>
+                return <li className="flex-none w-72 h-24 m-5 card" key={cert.name}><a href={cert.url} target="#">{cert.name}</a></li>
             })}
           </ul>
         </div>
