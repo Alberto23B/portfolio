@@ -21,7 +21,7 @@ export default function ProjectPicker() {
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1L16 15H0L8 1Z" fill="currentColor">
                           </path>
                           </svg>
-                          <a className="inline-block font-bold align-middle" href={proj.url[0]}>Live Site</a>
+                          <a className="inline-block font-bold align-middle links" href={proj.url[0]}>Live Site</a>
                         </div>
                         }
                         <div className="inline-block">
@@ -35,7 +35,7 @@ export default function ProjectPicker() {
                           </clipPath>
                           </defs>
                           </svg>
-                          <a className="inline-block font-bold align-middle" href={proj.url[1]}>GitHub</a>
+                          <a className="inline-block font-bold align-middle links" href={proj.url[1]}>GitHub</a>
                         </div>
                      </div>  
                    )
