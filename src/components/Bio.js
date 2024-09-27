@@ -10,14 +10,14 @@ export default function Bio() {
 
     return (
         <>
-          <div className="container bio">
+          <div className="flex flex-row w-full h-screen">
             <div className="intro">
               <p> 
                 {language === "eng" ? <span className="ciao">Hi,</span> : <span className="ciao">Ciao,</span>}
                 {language === "eng" ? <span className="mio-nome">{` I'm Alberto`}</span> : <span className="mio-nome">{` sono Alberto`}</span>}
                 {language === "eng" ? 
-                <span className="subtitle">I am a passionate learner in the field of web and application development</span>
-                : <span className="subtitle">Appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi</span> } 
+                <span className="text-2xl">I am a passionate learner in the field of web and application development</span>
+                : <span className="text-2xl block text-pretty">Appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi</span> } 
               </p>
             </div>
             <div className="display-bio">

@@ -12,31 +12,19 @@ import reactLogo from '../src/assets/react.png';
 function App() {
   return (
     <div>
-      <header className="container header">
-          <img className="logo" src={logo} alt="a portrait" />
-          <ul className='navbar'>
-            <li><a href="#section1">Bio</a></li>
-            <li><a href="#section2">Projects & Certifications</a></li>
-            <li><a href="#section3">Contacts</a></li>
-          </ul>
-          <h4>
+      <header className=" w-full flex flex-row bg-black text-cyan-50 fixed">
+          <img className="w-10 ml-10 aspect-square rounded-full" src={logo} alt="a portrait" />
+          <h4 className=" self-center ml-auto mr-10">
             ALBERTO BIOLCHI PORTFOLIO
           </h4>
       </header>
       <section id='section1'></section>
       <img className="logo-responsive" src={logo} alt="a portrait" />
       <Bio />
-      <div id="section2" className='container project'>
+      <div id="section2">
         <ProjectPicker />
       </div>  
-      <div className='logos'>
-        <img className='image' src={htmlLogo} alt='html-logo'/>
-        <img className='image' src={cssLogo} alt='css-logo'/>
-        <img className='image' src={jsLogo} alt='js-logo'/>
-        <img className='image' src={nodeLogo} alt='node-logo'/>
-        <img className='image' src={reactLogo} alt='react-logo'/>
-      </div>
-      <div className='container cert'>
+      <div>
         <Certificates />
       </div>
       <ul id="section3" className='contacts'>

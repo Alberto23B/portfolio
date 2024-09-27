@@ -1,5 +1,12 @@
 export const projects = [
     {
+        name: "The Good Reads (using Google Books API)",
+        url: "https://the-good-reads.vercel.app/",
+        description: 
+        ``,
+        deployed: true 
+    },
+    {
         name: "Appointment Planner",
         url: "https://appointment-planner-starting-v18.vercel.app/contacts",
         description: 
