@@ -13,12 +13,6 @@ svg {
   margin: 0 0.5rem;
 }
 
-a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #14141f;
-}
-
 a:hover {
   animation: 0.4s linear 0s 1 grow forwards;
 }

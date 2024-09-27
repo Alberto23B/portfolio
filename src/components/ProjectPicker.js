@@ -4,13 +4,13 @@ import { projects } from "../data"
 export default function ProjectPicker() {
     return (
           <div className="flex flex-col w-3/4 m-auto">
-            <div className="font-bold text-3xl w-full text-center">
+            <div className="font-bold text-3xl w-full text-center mt-3">
               <h2>Projects</h2>
             </div>
-            <div className="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-8 new-scrollbar">
+            <div className="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start my-3 new-scrollbar">
               {projects.map((proj) => {
                  return (
-                    <div className="flex-none w-72 h-80 m-5 py-12 card">
+                    <div className="flex-none w-72 h-72 m-5 py-12 card">
                       <a className="block h-20" href={proj.url} target="#">{proj.name}</a>
                       <ul className="h-32 text-balance">
                         <li>{proj.description}</li>
