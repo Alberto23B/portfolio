@@ -4,14 +4,14 @@ import { projects } from "../data"
 export default function ProjectPicker() {
     return (
           <div className="flex flex-col w-3/4 m-auto">
-            <div className="font-bold text-3xl w-full text-center mt-3">
+            <div className="w-full mt-3 text-3xl font-bold text-center">
               <h2>Projects</h2>
             </div>
-            <div className="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start my-3 new-scrollbar">
+            <div className="flex flex-no-wrap items-start my-3 overflow-x-scroll scrolling-touch new-scrollbar">
               {projects.map((proj) => {
                  return (
-                    <div className="flex-none w-72 h-72 m-5 py-12 card">
-                      <a className="block h-20" href={proj.url} target="#">{proj.name}</a>
+                    <div className="flex-none py-12 m-5 w-72 h-72 card">
+                      <p className="block h-20 font-bold">{proj.name}</p>
                       <ul className="h-32 text-balance">
                         <li>{proj.description}</li>
                       </ul>
@@ -21,7 +21,7 @@ export default function ProjectPicker() {
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1L16 15H0L8 1Z" fill="currentColor">
                           </path>
                           </svg>
-                          <p className="inline-block align-middle">Live Site</p>
+                          <a className="inline-block font-bold align-middle" href={proj.url[0]}>Live Site</a>
                         </div>
                         }
                         <div className="inline-block">
@@ -35,7 +35,7 @@ export default function ProjectPicker() {
                           </clipPath>
                           </defs>
                           </svg>
-                          <p className="inline-block align-middle">GitHub</p>
+                          <a className="inline-block font-bold align-middle" href={proj.url[1]}>GitHub</a>
                         </div>
                      </div>  
                    )

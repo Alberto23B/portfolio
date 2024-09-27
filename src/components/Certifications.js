@@ -4,12 +4,12 @@ import { certificates } from "../data";
 export default function Certificates() {
     return (
         <div className="flex flex-col w-3/4 m-auto">
-        <div className="font-bold text-3xl w-full text-center">
+        <div className="w-full text-3xl font-bold text-center">
             <h2>Certifications</h2>
           </div>
-          <ul className="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-3 new-scrollbar">
+          <ul className="flex flex-no-wrap mb-3 overflow-x-scroll scrolling-touch new-scrollbar">
             {certificates.map(cert => {
-                return <li className="flex-none w-72 h-16 m-5 card" key={cert.name}><a href={cert.url} target="#">{cert.name}</a></li>
+                return <li className="flex-none m-5 font-bold w-72 card" key={cert.name}><a className="block h-12 line-clamp-2" href={cert.url} target="#">{cert.name}</a></li>
             })}
           </ul>
         </div>
