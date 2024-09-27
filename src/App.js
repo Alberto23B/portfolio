@@ -12,7 +12,7 @@ import reactLogo from '../src/assets/react.png';
 function App() {
   return (
     <div>
-      <header className=" w-full flex flex-row bg-black text-cyan-50 fixed">
+      <header className=" w-full flex flex-row bg-black text-cyan-50">
           <img className="w-10 ml-10 aspect-square rounded-full" src={logo} alt="a portrait" />
           <h4 className=" self-center ml-auto mr-10">
             ALBERTO BIOLCHI PORTFOLIO

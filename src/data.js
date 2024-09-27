@@ -1,76 +1,66 @@
 export const projects = [
     {
-        name: "The Good Reads (using Google Books API)",
+        name: "The Good Reads",
         url: "https://the-good-reads.vercel.app/",
         description: 
-        ``,
+        `Project made from scratch using
+        React, FetchAPI, Google Books API, TailwindCSS`,
         deployed: true 
     },
     {
         name: "Appointment Planner",
         url: "https://appointment-planner-starting-v18.vercel.app/contacts",
         description: 
-        `Independent project from Code Academy. 
-        Main goals: 
-        -Use React hooks and props to pass data
-        -Add functionality and validations regarding how the user insert data
-        -Avoid duplicates
-        -Keep track of changes with Git`,
+        `Portfolio project from CodeAcademy. Functionalities are validation of inputs and check on duplicates`,
         deployed: true 
     },
     {
         name: "Dynamic Css Login",
         url: "https://dynamic-css-login.vercel.app/",
         description: 
-        `Main goals: 
-        -Use React hooks and props to pass data and make the interface interactive
-        -Use RegExp to check irregular entries
-        -Keep track of changes with Git`,
+        `React hooks and props, CSS`,
         deployed: true  
     },
     {
         name: "React Router Example",
         url: "https://react-router-example-silk.vercel.app/",
         description: 
-        `From Routing tutorial;
-        Main goals: 
-        -Use Routing to navigate through pages
-        -Set index routing`,
+        `Project from Routing tutorial. Main goals: using React Router, make protected routes`,
         deployed: true  
+    },
+    {
+        name: "fCC Exercise Tracker",
+        url: "https://github.com/Alberto23B/Exercise-Tracker-proj",
+        description: 
+        `API that stores an exercise log using POST request and mongoDB, and retrieves logs based on the user GET request`,
+        deployed: false 
     },
     {
         name: "fCC Timestamp Microcervice",
         url: "https://github.com/Alberto23B/fcc_timestamp_project",
         description: 
-        `fCC certification: backand and API's`,
+        `API that returns a JSON with either a unix timestamp or a utc timestamp depending on the query params.`,
         deployed: false  
     },
     {
         name: "fCC Header Parser",
         url: "https://github.com/Alberto23B/Header-Parser-project",
         description: 
-        `fCC certification: backand and API's`,
+        `API that returns the JSON format of the request`,
         deployed: false
     },
     {
         name: "fCC URL Shortener Service",
         url: "https://github.com/Alberto23B/Url-Shortener-Project",
         description: 
-        `fCC certification: backand and API's`,
+        `API meant to POST a website and give back a shortcut URL to that website`,
         deployed: false
-    },
-    {
-        name: "fCC Exercise Tracker",
-        url: "https://github.com/Alberto23B/Exercise-Tracker-proj",
-        description: 
-        `fCC certification: backand and API's`,
-        deployed: false 
     },
     {
         name: "fCC File Metadata",
         url: "https://github.com/Alberto23B/File-Metadata-proj",
         description: 
-        `fCC certification: backand and API's`,
+        `Upload a file to this API and get back file's metadata`,
         deployed: false 
     },
 
