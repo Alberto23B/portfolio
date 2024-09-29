@@ -5,12 +5,12 @@ import  { NavLink, Outlet} from "react-router-dom";
 function App() {
   return (
     <div>
-      <header className="flex flex-row justify-around w-full bg-black text-cyan-50">
-          <img className="w-10 ml-10 rounded-full aspect-square" src={logo} alt="a portrait" />
-          <NavLink to="/" className= "m-auto text-center text-white"><span>Bio</span></NavLink>
-          <NavLink to="/projects" className="m-auto text-center text-white"><span>Projects & Certifications</span></NavLink>
+      <header className="fixed z-10 flex flex-row justify-around w-full h-12 bg-black text-cyan-50 md:relative">
+          <img className="hidden w-12 ml-10 rounded-full md:block" src={logo} alt="a portrait" />
+          <NavLink to="/" className= "my-auto text-center text-white"><span>Bio</span></NavLink>
+          <NavLink to="/projects" className="w-1/6 my-auto text-center text-white"><span>Projects</span></NavLink>
           <div className="group">
-            <button className="w-48 h-full m-auto text-white align-middle">
+            <button className="w-1/6 h-full my-auto text-white align-middle">
                 <span>Contacts</span>
             </button>
             <div className="absolute z-10 hidden group-hover:block">
@@ -23,7 +23,7 @@ function App() {
               </div>
             </div>
           </div>  
-          <h4 className="self-center ml-auto mr-10 ">
+          <h4 className="self-center hidden mr-10 md:block">
             ALBERTO BIOLCHI PORTFOLIO
           </h4>
       </header>

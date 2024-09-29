@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { bio } from "../data";
 
 
@@ -10,17 +11,17 @@ export default function Bio() {
 
     return (
         <>
-          <div className="relative flex flex-row w-full h-screen">
-            <div className="intro">
+          <div className="relative flex flex-col w-full h-lvh md:flex-row md:h-screen justify-evenly">
+            <div className="self-center mt-10 text-5xl text-center w-96 md:mt-0">
               <p> 
-                {language === "eng" ? <span className="ciao">Hi,</span> : <span className="ciao">Ciao,</span>}
+                {language === "eng" ? <span className="ciao">Hi,</span> : <span className="ciao">Ciao,</span>}<br />
                 {language === "eng" ? <span className="mio-nome">{` I'm Alberto`}</span> : <span className="mio-nome">{` sono Alberto`}</span>}
                 {language === "eng" ? 
-                <span className="block text-2xl text-pretty">I am a passionate learner in the field of web and application development</span>
-                : <span className="block text-2xl text-pretty">Appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi</span> } 
+                <span className="block text-3xl text-pretty">I am a passionate learner in the field of web and application development</span>
+                : <span className="block text-3xl text-pretty">Appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi</span> } 
               </p>
             </div>
-            <div className="display-bio">
+            <div className="relative self-center block text-center md:inline-block md:w-96 w-80 text-balance">
               {displayText.map((item, index) => (
                   <p key={index}>{item.description}</p> 
               ))}
@@ -30,6 +31,7 @@ export default function Bio() {
               </div> 
             </div>   
           </div>
+          <Link className="block m-auto mb-5 text-3xl font-bold text-center md:hidden " to="/projects">Projects<span>&#8594;</span></Link>
         </>
     )
 }

@@ -140,15 +140,11 @@ export const bio = [
       description: `
       Il mio obiettivo è raggiungere le competenze di Full-Stack Developer 
       tramite l'applicazione pratica di conoscenze derivate da corsi e studio individuale.
-
-      Linguaggi conosciuti: 
-      -Html, CSS, JavaScript, JSX, CLI
-
+      Linguaggi usati:
+      -HTML, CSS, JavaScript, JSX, CLI
       Frameworks:
       -React.js
-
-      Ho cominciato questo percorso durante e dopo aver svolto per 5 anni la professione di Chinesiologo e Preparatore atletico, ambito che 
-      mi ha permesso di consolidare e rafforzare skills interpersonali, organizzative, gestionali e comunicative.`,
+      `,
       lang: "ita"
     },
     {
@@ -156,12 +152,10 @@ export const bio = [
       My goal is to acquire the skills of Full-Stack Developer through the practical application of knowledge 
       gained from courses and individual study.
 
-      Languages known:
+      Languages used at the moment:
       HTML, CSS, JavaScript, JSX, CLI.
       Frameworks:
       React.js.
-      I began this journey during and after working for five years as a Kinesiologist and Athletic Trainer, a field in which
-      I have been able to consolidate and strengthen my interpersonal, organizational, management, and communication skills.
 
     `,
       lang: "eng"
