@@ -12,24 +12,24 @@ function App() {
           <li className=''><NavLink to="/certificates" className="w-1/6 my-auto text-center "><span>//  Certifications</span></NavLink></li>
         </ul>
       </nav>
-      <header className="z-10 items-center justify-between hidden w-8 h-full border-b-2 md:flex md:w-full md:h-20 md:flex-row green-text">
+      <header className="z-10 items-center justify-between hidden w-8 h-full border-b-2 md:flex md:w-full md:h-20 4k:h-fit md:flex-row green-text">
         <div>
-          <img className="hidden w-20 ml-48 md:block" src={logo_hex} alt="a portrait" />
+          <img className="hidden w-20 ml-20 4k:w-32 md:ml-36 md:block" src={logo_hex} alt="a portrait" />
         </div>
-        <div className='inline-flex w-2/3 mx-10 justify-evenly'>
-          <div className='text-sm'>
+        <div className='inline-flex w-2/3 mx-10 justify-evenly '>
+          <div className='text-sm 4k:text-2xl'>
             <p>.01</p>
             <NavLink to="/" className= "my-auto text-center "><span>// Bio</span></NavLink>
           </div>
-          <div className='text-sm'>
+          <div className='text-sm 4k:text-2xl'>
             <p>.02</p>
             <NavLink to="/projects" className="w-1/6 my-auto text-center "><span>// Projects</span></NavLink>  
           </div>
-          <div className='text-sm'>
+          <div className='text-sm 4k:text-2xl'>
             <p>.03</p>
             <NavLink to="/certificates" className="w-1/6 my-auto text-center "><span>//  Certifications</span></NavLink>
           </div>
-          <div className="text-sm group">
+          <div className="text-sm group 4k:text-2xl">
             <p>.04</p>
             <button className="my-auto align-middle w-fit"><span>// Contacts</span>
             </button>
