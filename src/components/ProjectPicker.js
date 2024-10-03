@@ -11,7 +11,7 @@ export default function ProjectPicker() {
               {projects.map((proj) => {
                  return (
                     <div className="flex-none py-12 m-5 w-72 h-72 card">
-                      <p className="block h-20 font-bold">{proj.name}</p>
+                      <p className="block h-16 font-bold">{proj.name}</p>
                       <ul className="h-32 text-balance">
                         <li>{proj.description}</li>
                       </ul>

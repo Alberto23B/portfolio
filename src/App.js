@@ -5,9 +5,9 @@ import  { NavLink, Outlet} from "react-router-dom";
 function App() {
   return (
     <div className="h-screen">
-      <header className="z-10 flex flex-row items-center justify-between w-full h-16 bg-transparent green-text">
+      <header className="z-10 flex flex-row items-center justify-between w-full h-20 bg-transparent green-text">
         <div>
-          <img className="hidden w-12 ml-48 md:block" src={logo_hex} alt="a portrait" />
+          <img className="hidden w-20 ml-48 md:block" src={logo_hex} alt="a portrait" />
         </div>
         <div className='inline-flex w-2/3 mx-10 justify-evenly'>
           <div className='text-sm'>

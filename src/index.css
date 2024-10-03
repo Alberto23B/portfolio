@@ -10,12 +10,13 @@
     width: 10px;
   }
   .new-scrollbar::-webkit-scrollbar-track {
-    background: rgba(241, 255, 255, 0.675);
+    background: rgba(241, 255, 255, 0.101);
+    border-radius: 8px;
   }
 
   .new-scrollbar::-webkit-scrollbar-thumb {
-    background: hsla(0, 0%, 53%, 0.144);
-    border-radius: 4px;
+    background: #161c2b;
+    border-radius: 8px;
   }
 }
 
@@ -27,7 +28,6 @@ html {
   background-image: url(assets/bg.png);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 
@@ -46,6 +46,16 @@ code {
     monospace;
 }
 
+.bio {
+  border-radius: 7%;
+  border: 2px solid #34837e;
+  padding: 1rem;
+}
+
+.bio2 {
+  background-image: url(assets/bg.png);
+}
+
 .fira {
   font-family: "Fira Code", sans-serif;
 }
@@ -59,11 +69,12 @@ code {
 }
 
 .card {
-  background: rgb(36,45,68);
-  background: linear-gradient(133deg, rgba(36,45,68,1) 0%, rgba(37,49,71,1) 5%, rgba(37,52,73,1) 8%, rgba(38,57,76,1) 14%, rgba(39,62,79,1) 20%, rgba(40,69,84,1) 28%, rgba(41,73,87,1) 33%, rgba(42,77,90,1) 38%, rgba(42,79,91,1) 40%, rgba(52,131,126,1) 100%);  text-align: center;
+  /* background: rgb(36,45,68);
+  background: linear-gradient(133deg, rgba(36,45,68,1) 0%, rgba(37,49,71,1) 5%, rgba(37,52,73,1) 8%, rgba(38,57,76,1) 14%, rgba(39,62,79,1) 20%, rgba(40,69,84,1) 28%, rgba(41,73,87,1) 33%, rgba(42,77,90,1) 38%, rgba(42,79,91,1) 40%, rgba(52,131,126,1) 100%);  text-align: center; */
+  text-align: center;
   color: white;
   border-radius: 7%;
-  border: 1px solid #34837e;
+  border: 2px solid #34837e;
 }
 
 .links:hover {
