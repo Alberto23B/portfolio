@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=SUSE&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:wght@100..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -19,7 +20,14 @@
 }
 
 *>* {
- font-family: "SUSE", sans-serif;
+ font-family: "JetBrains Mono", sans-serif;
+}
+
+html {
+  background-image: url(assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -38,21 +46,24 @@ code {
     monospace;
 }
 
+.fira {
+  font-family: "Fira Code", sans-serif;
+}
+
+.green-text {
+  color: #34837e;
+}
+
+.pink-text {
+  color: #8E7C93
+}
 
 .card {
-  background: rgb(238,241,255);
-  background: linear-gradient(133deg, 
-  rgba(238,241,255,0.6167717086834734) 0%, 
-  rgba(235,242,255,1) 9%, 
-  rgba(231,244,255,1) 21%, 
-  rgba(228,245,255,1) 30%, 
-  rgba(225,246,255,1) 40%, 
-  rgba(222,247,255,1) 48%, 
-  rgba(220,248,255,1) 55%, 
-  rgba(218,249,255,1) 62%, 
-  rgba(204,254,255,0.583158263305322) 68%);
-  text-align: center;
+  background: rgb(36,45,68);
+  background: linear-gradient(133deg, rgba(36,45,68,1) 0%, rgba(37,49,71,1) 5%, rgba(37,52,73,1) 8%, rgba(38,57,76,1) 14%, rgba(39,62,79,1) 20%, rgba(40,69,84,1) 28%, rgba(41,73,87,1) 33%, rgba(42,77,90,1) 38%, rgba(42,79,91,1) 40%, rgba(52,131,126,1) 100%);  text-align: center;
+  color: white;
   border-radius: 7%;
+  border: 1px solid #34837e;
 }
 
 .links:hover {
@@ -80,16 +91,28 @@ code {
 }
 
 .ciao {
-  display: inline-block;
   font-weight: bold;
-  visibility: hidden;
-  animation: 0.4s ease-in 0s 1 slideInFromLeft forwards
 }
 
 .mio-nome {
   display: inline-block;
-  visibility: hidden;
-  animation: 0.6s ease-in 0.8s 1 slideInFromTop forwards;
   margin-left: 1rem;
 }
 
+.subtitle {
+  display: block;
+  font-size: 2rem;
+  text-wrap: balance;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}

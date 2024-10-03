@@ -1,17 +1,30 @@
 import './App.css';
-import logo from '../src/assets/self.svg';
+import logo_hex from '../src/assets/logo_hex.png'
 import  { NavLink, Outlet} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <header className="fixed z-10 flex flex-row justify-around w-full h-12 bg-black text-cyan-50 md:relative">
-          <img className="hidden w-12 ml-10 rounded-full md:block" src={logo} alt="a portrait" />
-          <NavLink to="/" className= "my-auto text-center text-white"><span>Bio</span></NavLink>
-          <NavLink to="/projects" className="w-1/6 my-auto text-center text-white"><span>Projects</span></NavLink>
-          <div className="group">
-            <button className="w-1/6 h-full my-auto text-white align-middle">
-                <span>Contacts</span>
+    <div className="h-screen">
+      <header className="z-10 flex flex-row items-center justify-between w-full h-16 bg-transparent green-text">
+        <div>
+          <img className="hidden w-12 ml-48 md:block" src={logo_hex} alt="a portrait" />
+        </div>
+        <div className='inline-flex w-2/3 mx-10 justify-evenly'>
+          <div className='text-sm'>
+            <p>.01</p>
+            <NavLink to="/" className= "my-auto text-center "><span>// Bio</span></NavLink>
+          </div>
+          <div className='text-sm'>
+            <p>.02</p>
+            <NavLink to="/projects" className="w-1/6 my-auto text-center "><span>// Projects</span></NavLink>  
+          </div>
+          <div className='text-sm'>
+            <p>.03</p>
+            <NavLink to="/certificates" className="w-1/6 my-auto text-center "><span>//  Certifications</span></NavLink>
+          </div>
+          <div className="text-sm group">
+            <p>.04</p>
+            <button className="my-auto align-middle w-fit"><span>// Contacts</span>
             </button>
             <div className="absolute z-10 hidden group-hover:block">
               <div className="px-2 pt-2 pb-4 bg-black shadow-lg">
@@ -23,9 +36,7 @@ function App() {
               </div>
             </div>
           </div>  
-          <h4 className="self-center hidden mr-10 md:block">
-            ALBERTO BIOLCHI PORTFOLIO
-          </h4>
+        </div>
       </header>
       <Outlet></Outlet>
     </div>

@@ -11,25 +11,23 @@ export default function Bio() {
 
     return (
         <>
-          <div className="relative flex flex-col w-full h-lvh md:flex-row md:h-screen justify-evenly">
-            <div className="self-center mt-10 text-5xl text-center w-96 md:mt-0">
+          <div className="relative flex flex-col w-2/5 ml-56 top-32 justify-evenly">
+            <div className="self-center md:mt-0">
               <p> 
-                {language === "eng" ? <span className="ciao">Hi,</span> : <span className="ciao">Ciao,</span>}<br />
-                {language === "eng" ? <span className="mio-nome">{` I'm Alberto`}</span> : <span className="mio-nome">{` sono Alberto`}</span>}
-                {language === "eng" ? 
-                <span className="block text-3xl text-pretty">I am a passionate learner in the field of web and application development</span>
-                : <span className="block text-3xl text-pretty">Appassionato e corsista nell'ambito dello Sviluppo di siti web e applicativi</span> } 
+                <span className="text-xl green-text">Ciao, I'm</span><br />
+              </p>
+              <h3 className="text-6xl font-bold green-text">Alberto Biolchi</h3>
+              <p className="py-4 text-lg tracking-wide text-white fira" >I’m an aspiring web developer, amazed by the world of 
+              coding I am changing my life day by day committing to learning and building small, working websites and application looking for someday build big, working wonders in the great world of development.
               </p>
             </div>
-            <div className="relative self-center block text-center md:inline-block md:w-96 w-80 text-balance">
-              {displayText.map((item, index) => (
-                  <p key={index}>{item.description}</p> 
-              ))}
-                <div className="buttons">
-                <button className="button" type="radio" id="ita" name="lang" value="ita" onClick={handleClick}>Ita</button>
-                <button className="button" type="radio" id="eng" name="lang" value="eng" onClick={handleClick}>Eng</button>
-              </div> 
-            </div>   
+            <p className="italic text-right pink-text">-"I'll build amazing things"</p>  
+          </div>
+          <div className="relative top-40 green-text right-40 text.lg float-end">
+            <p>Languages used at the moment:</p>
+            <p>HTML, CSS, JavaScript, JSX, CLI.</p>
+            <p>Frameworks:</p>
+            <p>React.js</p>
           </div>
           <Link className="block m-auto mb-5 text-3xl font-bold text-center md:hidden " to="/projects">Projects<span>&#8594;</span></Link>
         </>
