@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 
 @tailwind base;
 @tailwind components;
@@ -25,11 +27,19 @@
 }
 
 html {
-  background-image: url(assets/bg.png);
+  background-color: #0a192f;
+  /* background-image: url(assets/bg.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
+nav {
+  background-color:#000000;
+}
+
+header {
+  background-color: #000;
+}
 
 body {
   margin: 0;
@@ -105,10 +115,6 @@ code {
   font-weight: bold;
 }
 
-.mio-nome {
-  display: inline-block;
-  margin-left: 1rem;
-}
 
 .subtitle {
   display: block;
@@ -125,5 +131,5 @@ code {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #34837e; }
 }

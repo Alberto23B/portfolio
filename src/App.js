@@ -1,11 +1,18 @@
 import './App.css';
 import logo_hex from '../src/assets/logo_hex.png'
-import  { NavLink, Outlet} from "react-router-dom";
+import  { Link, NavLink, Outlet} from "react-router-dom";
 
 function App() {
   return (
     <div className="h-screen">
-      <header className="z-10 flex flex-row items-center justify-between w-full h-20 bg-transparent green-text">
+      <nav className='fixed z-10 w-full overflow-hidden text-white border-b-2 md:hidden'>
+        <ul>
+          <li className=''><NavLink to="/" className= "my-auto text-center "><span>// Bio</span></NavLink></li>
+          <li className='py-1'><NavLink to="/projects" className="w-1/6 my-auto text-center "><span>// Projects</span></NavLink>  </li>
+          <li className=''><NavLink to="/certificates" className="w-1/6 my-auto text-center "><span>//  Certifications</span></NavLink></li>
+        </ul>
+      </nav>
+      <header className="z-10 items-center justify-between hidden w-8 h-full border-b-2 md:flex md:w-full md:h-20 md:flex-row green-text">
         <div>
           <img className="hidden w-20 ml-48 md:block" src={logo_hex} alt="a portrait" />
         </div>

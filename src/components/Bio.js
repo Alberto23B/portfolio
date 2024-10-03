@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { bio } from "../data";
 
 
@@ -11,25 +10,29 @@ export default function Bio() {
 
     return (
         <>
-          <div className="relative flex flex-col w-2/5 ml-56 top-32 justify-evenly bio">
+          <div className="relative flex flex-col justify-around w-3/4 ml-10 md:ml-36 md:w-2/4 top-32 md:top-32 h-2/5 md:bio">
             <div className="self-center md:mt-0">
               <p> 
-                <span className="text-lg green-text">Ciao, I'm</span><br />
+                <span className="text-lg green-text ">Ciao, I'm</span><br />
               </p>
-              <h3 className="text-4xl font-bold green-text">Alberto Biolchi</h3>
-              <p className="py-4 text-lg tracking-wide text-white fira" >I’m an aspiring web developer, amazed by the world of 
+              <h3 className="text-4xl font-bold tracking-wider md:whitespace-nowrap green-text">Alberto Biolchi</h3>
+              <p className="py-4 text-sm tracking-wide text-white md:text-lg fira" >I’m an aspiring web developer, amazed by the world of 
               coding. I am changing my life day by day committing to learn and build small, working websites and application looking for someday build big, working wonders in the great world of development.
               </p>
             </div>
-            <p className="italic text-right pink-text">-"I'll build amazing things"</p>  
+            <p className="block italic text-right pink-text">-"I'll build great things"</p>  
+            <div className="w-full mt-16 text-center text-white md:hidden">
+              <a href='https://www.linkedin.com/in/alberto-biolchi' className="inline">//Linkedin </a>
+              <a href="https://github.com/Alberto23B" className="inline">//GitHub </a>
+              <a href="mailto:biolchi.alberto23@gmail.com" className="inline">//Email</a>
+            </div>
           </div>
-          <div className="bio2 relative top-36 green-text right-40 text.lg float-end">
+          <div className="hidden bio2 md:block green-text w-1/4 clear-both text.lg float-end">
             <p>Languages used at the moment:</p>
             <p>HTML, CSS, JavaScript, JSX, CLI.</p>
             <p>Frameworks:</p>
             <p>React.js</p>
           </div>
-          <Link className="block m-auto mb-5 text-3xl font-bold text-center md:hidden " to="/projects">Projects<span>&#8594;</span></Link>
         </>
     )
 }
