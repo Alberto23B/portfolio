@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavButtons from "./NavButtons";
 import { bio } from "../data";
 
 
@@ -20,7 +21,8 @@ export default function Bio() {
               coding. I am changing my life day by day committing to learn and build small, working websites and application looking for someday build big, working wonders in the great world of development.
               </p>
             </div>
-            <p className="block italic text-right pink-text 4k:text-3xl">-"I'll build great things"</p>  
+            <p className="block italic text-right pink-text 4k:text-3xl">-"I'll build great things"</p> 
+            <NavButtons></NavButtons> 
             <div className="w-full mt-16 text-center text-white md:hidden">
               <a href='https://www.linkedin.com/in/alberto-biolchi' className="inline">//Linkedin </a>
               <a href="https://github.com/Alberto23B" className="inline">//GitHub </a>

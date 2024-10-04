@@ -1,6 +1,6 @@
 import './App.css';
 import logo_hex from '../src/assets/logo_hex.png'
-import  { Link, NavLink, Outlet} from "react-router-dom";
+import  { NavLink, Outlet} from "react-router-dom";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <div className='inline-flex w-2/3 mx-10 justify-evenly '>
           <div className='text-sm 4k:text-2xl'>
             <p>.01</p>
-            <NavLink to="/" className= "my-auto text-center "><span>// Bio</span></NavLink>
+            <NavLink to="/" className= "my-auto text-center growing "><span>// Bio</span></NavLink>
           </div>
           <div className='text-sm 4k:text-2xl'>
             <p>.02</p>

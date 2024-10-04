@@ -87,10 +87,20 @@ code {
   border: 2px solid #34837e;
 }
 
+.card-pink {
+  /* background: rgb(36,45,68);
+  background: linear-gradient(133deg, rgba(36,45,68,1) 0%, rgba(37,49,71,1) 5%, rgba(37,52,73,1) 8%, rgba(38,57,76,1) 14%, rgba(39,62,79,1) 20%, rgba(40,69,84,1) 28%, rgba(41,73,87,1) 33%, rgba(42,77,90,1) 38%, rgba(42,79,91,1) 40%, rgba(52,131,126,1) 100%);  text-align: center; */
+  text-align: center;
+  color: #8E7C93;
+  border-radius: 7%;
+  border: 2px solid #8E7C93;
+}
+
 .links:hover {
   color: #37424c;
   text-shadow: 1px 1px 1px rgb(217, 217, 217);
 }
+
 
 .button {
   background: #14141f;
@@ -122,14 +132,18 @@ code {
   text-wrap: balance;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.growing:hover {
+  border-color: #FFFFFF;
+  color:#FFFFFF;
+  flex-grow: 0.2;
+  animation: grow 0.3s linear;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #34837e; }
+@keyframes grow {
+  0% {
+    flex-grow: 0;
+  }
+  100% {
+    flex-grow: 0.2;
+  }
 }
