@@ -14,12 +14,12 @@ function App() {
       </nav>
       <header className="z-10 items-center justify-between hidden w-8 h-full border-b-2 md:flex md:w-full md:h-20 4k:h-fit md:flex-row green-text">
         <div>
-          <img className="hidden w-20 ml-20 4k:w-32 md:ml-36 md:block" src={logo_hex} alt="a portrait" />
+          <NavLink to="/"><img className="hidden w-20 ml-20 4k:w-32 md:ml-36 md:block" src={logo_hex} alt="a portrait" /></NavLink>
         </div>
         <div className='inline-flex w-2/3 mx-10 justify-evenly '>
           <div className='text-sm 4k:text-2xl'>
             <p>.01</p>
-            <NavLink to="/" className= "my-auto text-center growing "><span>// Bio</span></NavLink>
+            <NavLink to="/" className= "my-auto text-center"><span>// Bio</span></NavLink>
           </div>
           <div className='text-sm 4k:text-2xl'>
             <p>.02</p>

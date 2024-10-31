@@ -87,13 +87,14 @@ code {
   border: 2px solid #34837e;
 }
 
-.card-pink {
+.card-green {
   /* background: rgb(36,45,68);
   background: linear-gradient(133deg, rgba(36,45,68,1) 0%, rgba(37,49,71,1) 5%, rgba(37,52,73,1) 8%, rgba(38,57,76,1) 14%, rgba(39,62,79,1) 20%, rgba(40,69,84,1) 28%, rgba(41,73,87,1) 33%, rgba(42,77,90,1) 38%, rgba(42,79,91,1) 40%, rgba(52,131,126,1) 100%);  text-align: center; */
   text-align: center;
-  color: #8E7C93;
+  color: white;
   border-radius: 7%;
-  border: 2px solid #8E7C93;
+  border: 2px solid #34837e;
+  background-color: #34837e;
 }
 
 .links:hover {
