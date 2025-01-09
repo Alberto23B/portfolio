@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Shelfable",
+    url: ["https://github.com/Alberto23B/shelfable"],
+    description: `Books search engine with authentication and data store.
+        Vite, React, MongoDB and Express`,
+    deployed: false,
+  },
+  {
     name: "Jumpstarter",
     url: [
       "https://jstarter.netlify.app/",
@@ -7,16 +14,6 @@ export const projects = [
     ],
     description: `React-Redux project styled with TailwindCSS.
         -Weather, Quote, Background API and Task Manager `,
-    deployed: true,
-  },
-  {
-    name: "The Good Reads",
-    url: [
-      "https://the-good-reads.vercel.app/",
-      "https://github.com/Alberto23B/the_good_reads",
-    ],
-    description: `Books search engine made from scratch using
-        React, FetchAPI, Google Books API, TailwindCSS`,
     deployed: true,
   },
   {
