@@ -1,10 +1,13 @@
 export const projects = [
   {
     name: "Shelfable",
-    url: ["https://github.com/Alberto23B/shelfable"],
+    url: [
+      "https://shelfable.vercel.app/",
+      "https://github.com/Alberto23B/shelfable",
+    ],
     description: `Books search engine with authentication and data store.
-        Vite, React, MongoDB and Express`,
-    deployed: false,
+        Stack: Vite/React, Tailwind, Vercel - Express, Passport, MongoDB`,
+    deployed: true,
   },
   {
     name: "Jumpstarter",
