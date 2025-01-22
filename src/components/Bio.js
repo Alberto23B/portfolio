@@ -29,13 +29,13 @@ export default function Bio() {
             href="https://www.linkedin.com/in/alberto-biolchi"
             className="inline"
           >
-            //Linkedin{" "}
+            &#47;&#47; Linkedin{" "}
           </a>
           <a href="https://github.com/Alberto23B" className="inline">
-            //GitHub{" "}
+            &#47;&#47; GitHub{" "}
           </a>
           <a href="mailto:biolchi.alberto23@gmail.com" className="inline">
-            //Email
+            &#47;&#47; Email
           </a>
         </div>
       </div>
