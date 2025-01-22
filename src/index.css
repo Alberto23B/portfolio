@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:wght@100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,8 +21,8 @@
   }
 }
 
-*>* {
- font-family: "JetBrains Mono", sans-serif;
+* > * {
+  font-family: "JetBrains Mono", monospace;
 }
 
 html {
@@ -34,7 +33,7 @@ html {
 }
 
 nav {
-  background-color:#000000;
+  background-color: #000000;
 }
 
 header {
@@ -43,16 +42,15 @@ header {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -75,7 +73,7 @@ code {
 }
 
 .pink-text {
-  color: #8E7C93
+  color: #8e7c93;
 }
 
 .card {
@@ -102,11 +100,10 @@ code {
   text-shadow: 1px 1px 1px rgb(217, 217, 217);
 }
 
-
 .button {
   background: #14141f;
   border-radius: 7%;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
@@ -114,7 +111,7 @@ code {
   outline: 0 solid transparent;
   padding: 1vh 0;
   margin: 1vh 1vw;
-  width: 10vw;;
+  width: 10vw;
 }
 
 .buttons {
@@ -126,7 +123,6 @@ code {
   font-weight: bold;
 }
 
-
 .subtitle {
   display: block;
   font-size: 2rem;
@@ -134,8 +130,8 @@ code {
 }
 
 .growing:hover {
-  border-color: #FFFFFF;
-  color:#FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
   flex-grow: 0.2;
   animation: grow 0.3s linear;
 }
