@@ -7,7 +7,7 @@ export default function Certificates() {
       <div className="w-full mt-3 text-3xl font-bold text-center">
         <h2 className="green-text 4k:text-7xl">Courses</h2>
       </div>
-      <ul className="flex flex-col flex-no-wrap items-start mx-auto my-3 overflow-x-scroll scrolling-touch md:items-center md:flex-row new-scrollbar">
+      <ul className="flex flex-col flex-no-wrap items-start my-3 overflow-x-scroll scrolling-touch md:items-center md:flex-row new-scrollbar">
         {certificates.map((cert) => {
           return (
             <li

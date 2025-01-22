@@ -1,13 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import NavButtons from "./NavButtons";
-import { bio } from "../data";
 
 export default function Bio() {
-  const [language, setLanguage] = useState("ita");
-  const displayText = bio.filter((b) => b.lang === language);
-
-  const handleClick = (e) => setLanguage(e.target.value);
-
   return (
     <>
       <div className="relative flex flex-col justify-around w-3/4 ml-10 md:ml-36 md:w-2/4 4k:w-2/5 4k:ml-56 top-32 md:top-32 h-2/5 md:bio">
