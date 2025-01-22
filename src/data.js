@@ -80,12 +80,44 @@ export const projects = [
 
 export const certificates = [
   {
+    name: "Create a Back-End App with JavaScript",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/5cb678013709022f5b908913",
+  },
+  {
+    name: "Create an Advanced Web App with React and Redux",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/60198396cd6fb3000e88e8e4",
+  },
+  {
     name: "fCC Javascript Algorithms and Data Structures (Beta)",
     url: "https://www.freecodecamp.org/certification/Alberto_Biolchi/javascript-algorithms-and-data-structures-v8",
   },
   {
     name: "fCC Backend and API's",
     url: "https://www.freecodecamp.org/certification/Alberto_Biolchi/back-end-development-and-apis",
+  },
+  {
+    name: "CodeAcademy Learn React",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/af00e5032d0a68cc84879983f5d8333b",
+  },
+  {
+    name: "CodeAcademy Learn React: Introduction",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/1bf3e70ae92b43c2a3add66cbfaec661",
+  },
+  {
+    name: "CodeAcademy Learn Testing for Web Development: Fundamentals",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/4801a1bd0f7a449e93ea55b8ff845095",
+  },
+  {
+    name: "CodeAcademy Build a Website with HTML, CSS, and GitHub Pages Skill Path",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/5cadfefe5f1de806e9704577",
+  },
+  {
+    name: "CodeAcademy Building Interactive JavaScript Websites",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/36ae898a1d1c8524815305b2d1d2ebab",
+  },
+  {
+    name: "CodeAcademy Learn JavaScript Unit Testing",
+    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/f4276e8c08a3ba174ef0147deb0c3013",
   },
   {
     name: "CodeAcademy Learn HTML",
@@ -98,30 +130,6 @@ export const certificates = [
   {
     name: "CodeAcademy Learn JavaScript",
     url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/705dcb15de0da4dd9d9fc4f3274b430e",
-  },
-  {
-    name: "CodeAcademy Build a Website with HTML, CSS, and GitHub Pages Skill Path",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/5cadfefe5f1de806e9704577",
-  },
-  {
-    name: "CodeAcademy Building Interactive JavaScript Websites",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/36ae898a1d1c8524815305b2d1d2ebab",
-  },
-  {
-    name: "CodeAcademy Learn React: Introduction",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/1bf3e70ae92b43c2a3add66cbfaec661",
-  },
-  {
-    name: "CodeAcademy Learn React",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/af00e5032d0a68cc84879983f5d8333b",
-  },
-  {
-    name: "CodeAcademy Learn Testing for Web Development: Fundamentals",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/4801a1bd0f7a449e93ea55b8ff845095",
-  },
-  {
-    name: "CodeAcademy Learn JavaScript Unit Testing",
-    url: "https://www.codecademy.com/profiles/AlbertoBiolchi/certificates/f4276e8c08a3ba174ef0147deb0c3013",
   },
 ];
 
