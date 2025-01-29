@@ -38,15 +38,6 @@ export const projects = [
     deployed: true,
   },
   {
-    name: "React Router Example",
-    url: [
-      "https://react-router-example-silk.vercel.app/",
-      "https://github.com/Alberto23B/react_router_example",
-    ],
-    description: `Project from Routing tutorial. Main goals: using React Router, make protected routes`,
-    deployed: true,
-  },
-  {
     name: "fCC Exercise Tracker",
     url: ["https://github.com/Alberto23B/Exercise-Tracker-proj"],
     description: `API that stores an exercise log using POST request and mongoDB, and returns logs based on the user GET request`,
