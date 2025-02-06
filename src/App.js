@@ -1,6 +1,7 @@
 import "./App.css";
 import logo_hex from "../src/assets/logo_hex.png";
 import { NavLink, Outlet } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
         </div>
       </header>
       <Outlet></Outlet>
+      <Analytics />
     </div>
   );
 }
