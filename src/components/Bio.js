@@ -41,7 +41,7 @@ export default function Bio() {
       </div>
       <div className="hidden clear-both w-1/4 text-lg bio2 md:block green-text 4k:text-3xl float-end">
         <p>Tech Stack:</p>
-        <p>HTML, TailwindCSS, JavaScript, Node.js, Express, MongoDB.</p>
+        <p>HTML, TailwindCSS, JavaScript, Node.js, Express, SQL.</p>
         <p>Frameworks:</p>
         <p>React.js</p>
       </div>
