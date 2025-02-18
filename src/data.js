@@ -134,7 +134,7 @@ export const bio = [
       Il mio obiettivo è raggiungere le competenze di Full-Stack Developer 
       tramite l'applicazione pratica di conoscenze derivate da corsi e studio individuale.
       Linguaggi usati:
-      -HTML, CSS, JavaScript, JSX, CLI
+      -HTML, CSS, JS, TS, JSX, TSX
       Frameworks:
       -React.js
       `,
