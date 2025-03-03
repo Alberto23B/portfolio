@@ -136,7 +136,9 @@ export const bio = [
       Linguaggi usati:
       -HTML, CSS, JS, TS, JSX, TSX
       Frameworks:
-      -React.js
+      -React.js, Express.js
+      Database:
+      -SQL, MongoDB
       `,
     lang: 'ita',
   },
@@ -146,9 +148,12 @@ export const bio = [
       gained from courses and individual study.
 
       Languages used at the moment:
-      HTML, CSS, JavaScript, JSX, CLI.
+      -HTML, CSS, JS, TS, JSX, TSX
       Frameworks:
-      React.js.
+       Frameworks:
+      -React.js, Express.js
+      Database:
+      -SQL, MongoDB
 
     `,
     lang: 'eng',

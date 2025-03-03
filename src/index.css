@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:wght@100..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +22,7 @@
 }
 
 * > * {
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 html {
@@ -42,15 +42,15 @@ header {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -65,7 +65,7 @@ code {
 }
 
 .fira {
-  font-family: "Fira Code", sans-serif;
+  font-family: 'Fira Code', sans-serif;
 }
 
 .green-text {
@@ -129,18 +129,16 @@ code {
   text-wrap: balance;
 }
 
+.growing {
+  transition: flex-grow 0.3s;
+}
+
 .growing:hover {
   border-color: #ffffff;
   color: #ffffff;
   flex-grow: 0.2;
-  animation: grow 0.3s linear;
 }
 
-@keyframes grow {
-  0% {
-    flex-grow: 0;
-  }
-  100% {
-    flex-grow: 0.2;
-  }
+.growing:not(:hover) {
+  flex-grow: 0;
 }
