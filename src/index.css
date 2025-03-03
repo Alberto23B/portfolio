@@ -95,11 +95,6 @@ code {
   background-color: #34837e;
 }
 
-.links:hover {
-  color: #37424c;
-  text-shadow: 1px 1px 1px rgb(217, 217, 217);
-}
-
 .button {
   background: #14141f;
   border-radius: 7%;

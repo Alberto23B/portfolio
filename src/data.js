@@ -7,6 +7,7 @@ export const projects = [
     ],
     description: `Books search engine with authentication and data store.
         Stack: Vite/React, Tailwind, Vercel - Express, Passport, MongoDB`,
+    category: 'fullstack',
     deployed: true,
   },
   {
@@ -17,15 +18,7 @@ export const projects = [
     ],
     description: `React-Redux project styled with TailwindCSS.
         -Weather, Quote, Background API and Task Manager `,
-    deployed: true,
-  },
-  {
-    name: 'Appointment Planner',
-    url: [
-      'https://appointment-planner-starting-v18.vercel.app/contacts',
-      'https://github.com/Alberto23B/CA_appointment_planner',
-    ],
-    description: `Portfolio project from CodeAcademy. Functionalities are validation of inputs and check on duplicates`,
+    category: 'frontend',
     deployed: true,
   },
   {
@@ -35,36 +28,42 @@ export const projects = [
       'https://github.com/Alberto23B/dynamic_css_login',
     ],
     description: `React hooks and props, CSS`,
+    category: 'frontend',
     deployed: true,
   },
   {
     name: 'fCC Exercise Tracker',
     url: ['https://github.com/Alberto23B/Exercise-Tracker-proj'],
     description: `API that stores an exercise log using POST request and mongoDB, and returns logs based on the user GET request`,
+    category: 'backend',
     deployed: false,
   },
   {
     name: 'fCC Timestamp Microcervice',
     url: ['https://github.com/Alberto23B/fcc_timestamp_project'],
     description: `API that returns a JSON with either a unix timestamp or a utc timestamp depending on the query params.`,
+    category: 'backend',
     deployed: false,
   },
   {
     name: 'fCC Header Parser',
     url: ['https://github.com/Alberto23B/Header-Parser-project'],
     description: `API that returns the JSON format of the request`,
+    category: 'backend',
     deployed: false,
   },
   {
     name: 'fCC URL Shortener Service',
     url: ['https://github.com/Alberto23B/Url-Shortener-Project'],
     description: `API meant to POST a website and give back a shortcut URL to that website`,
+    category: 'backend',
     deployed: false,
   },
   {
     name: 'fCC File Metadata',
     url: ['https://github.com/Alberto23B/File-Metadata-proj'],
     description: `Upload a file to this API and get back file's metadata`,
+    category: 'backend',
     deployed: false,
   },
 ];
